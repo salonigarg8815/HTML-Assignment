@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar ul li a {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.search-box input {
+  width: 400px;
+  height: 42px;
+  border: 0.8px solid #686868;
+}
+
+.navbar a img {
+  width: 120px;
+  height: 60px;
+}
+
+.search-box img {
+  width: 34px;
+  height: 34px;
+  padding: 3.99px 6.86px 3.94px 8.82px;
+  cursor: pointer;
+}
+
+.search-box input {
+  position: relative;
+  padding: 0 32px;
+}
+
+.search-box i {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  padding: 10px;
+  color: #5A5A5A;
+}
+
+/* shipping-section */
+.shipping {
+  height: 40px;
+  background: #ec4e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping p {
+  padding-top: 12.5px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.health-sec {
+  margin: 20px 0px;
+  height: 60px;
+  border-top: 1px solid #606060;
+  border-bottom: 1px solid #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.health a {
+  padding: 0 10px;
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6D6D6D;
+}
+
+.health a:hover {
+  color: #ec4e1e;
+}
+
+/* main-sec */
+.main-sec h6 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5A5A5A;
+  cursor: pointer;
+}
+
+.main-div {
+  border: 2px solid #e6dcdc;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.border-row {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e6dcdc;
+}
+
+.main-div h3 {
+  font-family: Rubik;
+  font-size: 55px;
+  font-weight: 600;
+  color: #FDA300;
+
+}
+
+.coin-sec img {
+  width: 400px;
+  height: 80px;
+  margin-left: 120px;
+}
+
+
+
+.cupons img {
+  width: 260px;
+  height: 110px;
+
+}
+
+
+.review h1 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 20px;
+  color: #000000;
+}
+
+.review h1 i {
+  font-size: 18px;
+  margin-left: 800px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.review .review-slider .box {
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 18px 0;
+  outline-offset: -1rem;
+  transition: .2s linear;
+}
+
+.review .review-slider .box img {
+  height: 180px;
+  width: 320px;
+
+}
+
+.review .review-slider .box h3 {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  color: #111921;
+  text-align: left;
+  padding-left: 20px;
+}
